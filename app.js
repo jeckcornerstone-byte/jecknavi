@@ -2,7 +2,7 @@ let selectedDestination = "";
 
 // Define marker graph
 const markers = {
-  entrance: { next: ["hallway1"], pos:{x:0,y:0,z:0}, label:"Entrance" },
+  entrance: { next: ["hallway1"], pos:{x:0,y:0,z:3}, label:"Entrance" },
   hallway1: { next: ["ICU","ER","LAB"], pos:{x:2,y:0,z:-2}, label:"Hallway 1" },
   ICU: { next: [], pos:{x:4,y:0,z:-2}, label:"ICU Room" },
   ER: { next: [], pos:{x:4,y:0,z:0}, label:"Emergency Room" },
