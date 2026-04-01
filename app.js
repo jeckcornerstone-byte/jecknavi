@@ -12,6 +12,7 @@ const locations = {
 // 🎯 Set destination
 function setDestination(dest) {
   selectedDestination = dest;
+  console.log("Selected:", dest);
   updateArrow();
 }
 
