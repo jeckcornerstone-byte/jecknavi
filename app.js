@@ -10,7 +10,7 @@ function setDestination(dest) {
 
   if (!routes[dest]) return;
 
-  arrow.innerHTML = '<a-cone radius-bottom="0.1" height="0.5" color="green"></a-cone>';
+  arrow.innerHTML = '<a-cone radius-bottom="0.1" height="0.5" color="bright blue"></a-cone>';
   arrow.setAttribute("rotation", routes[dest].rotation);
 
   label.setAttribute("value", routes[dest].text);
