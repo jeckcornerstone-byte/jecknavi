@@ -12,8 +12,10 @@ const locations = {
 // 🎯 Set destination
 function setDestination(dest) {
   selectedDestination = dest;
-  console.log("Selected:", dest);
-  updateArrow();
+  
+  console.log("Selected:", dest); // debug
+  
+  updateArrow(); // 🔥 THIS IS IMPORTANT
 }
 
 // 🧠 Update glowing arrow direction
