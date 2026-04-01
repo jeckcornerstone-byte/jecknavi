@@ -1,6 +1,6 @@
 const routes = {
   ER: { text: "Go to Emergency Room", rotation: "40 0 -3" },
-  ICU: { next: [], pos:{x:2,y:0,z:-3}, label:"ICU Room" },
+  ICU: { text: "Go to ICU", rotation: "0 90 0" },
   LAB: { text: "Go to Laboratory", rotation: "0 -90 0" }
 };
 
